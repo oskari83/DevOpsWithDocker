@@ -1,0 +1,9 @@
+ubuntu size: 83MB
+alpine size: 15.7MB
+
+Commands:
+docker container run -it -d devopsdockeruh/simple-web-service:alpine
+docker exec -it 7bb sh
+tail -f ./text.log
+
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'

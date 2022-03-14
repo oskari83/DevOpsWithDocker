@@ -1,0 +1,10 @@
+Searched for answer here:
+https://hub.docker.com/r/devopsdockeruh/pull_exercise
+
+Gave commands:
+docker run -it devopsdockeruh/pull_exercise
+basics
+
+Result:
+You found the correct password. Secret message is:
+"This is the secret message"
