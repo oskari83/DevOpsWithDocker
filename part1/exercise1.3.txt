@@ -1,0 +1,5 @@
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+
+Commands given:
+docker container run -it -d devopsdockeruh/simple-web-service:ubuntu
+docker exec -it b4ee bash
