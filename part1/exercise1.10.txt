@@ -1,0 +1,9 @@
+Command:
+docker run -p 127.0.0.1:3456:8080 devopsdockeruh/simple-web-service:web-server
+
+
+Browser shows:
+{
+message: "You connected to the following path: /",
+path: "/"
+}

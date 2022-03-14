@@ -1,0 +1,4 @@
+Command given:
+sudo docker run -v "$(pwd)/exercise1.9/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
+
+(Note I created the text file beforehand on my computer)
