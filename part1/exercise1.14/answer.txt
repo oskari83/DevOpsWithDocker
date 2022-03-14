@@ -1,0 +1,5 @@
+Commands:
+    Backend:    docker build . -t backend7
+                docker run -p 127.0.0.1:8080:8080 backend7
+    Frontend:   docker build . -t frontend7
+                docker run -p 127.0.0.1:5000:5000 frontend7
