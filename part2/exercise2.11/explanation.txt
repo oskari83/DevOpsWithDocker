@@ -1,0 +1,3 @@
+I set up a dev environment for my bloglist app from the Fullstack Open course. 
+This was done with a Dockerfile and docker-compose file as provided and 
+following the instructions set in chapter 4 of part2.
