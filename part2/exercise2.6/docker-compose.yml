@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+    back:
+        build: ./example-backend
+        ports:
+          - 8080:8080
+        container_name: backend
+    front:
+        build: ./example-frontend
+        ports:
+          - 5001:5001
+        container_name: frontend
+    redis:
+        image: redis:7.0-rc
+        command: redis-server
+        container_name: redis-server
+    db:
+        image: postgres:13.2-alpine
+        restart: unless-stopped
+        environment:
+          POSTGRES_PASSWORD: postgres
+        container_name: postgres
+    adminer:
+        image: adminer:4
+        restart: always
+        environment:
+          - ADMINER_DESIGN=galkaev
+        ports:
+          - 8083:8080

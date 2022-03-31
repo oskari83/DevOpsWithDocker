@@ -1,0 +1,1 @@
+I changed the RUN REACT_APP_BACKEND_URL environment variable to simply point to "api" and that worked
