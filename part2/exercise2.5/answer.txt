@@ -1,0 +1,2 @@
+Used commands:
+    docker-compose up -d --scale compute=4
