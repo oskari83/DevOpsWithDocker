@@ -10,4 +10,8 @@ RUN go build
 
 ENV REQUEST_ORIGIN=http://127.0.0.1:5000
 
+RUN useradd -m appuser
+
+USER appuser
+
 CMD [ "./server" ]
