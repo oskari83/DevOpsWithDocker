@@ -1,0 +1,7 @@
+BEFORE:
+    frontend size = 1.16GB
+    backend size = 934MB
+
+AFTER OPTIMISATIONS:
+    frontend size = 418MB
+    backend size = 440MB

@@ -1,0 +1,5 @@
+BEFORE:
+    bloglistfrontend size = 1.71GB
+
+AFTER OPTIMISATIONS:
+    bloglistfrontend size = 960MB (56% of original and more secure)

@@ -1,0 +1,17 @@
+FROM golang:1.16-alpine3.14 as build-stage
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+ENV REQUEST_ORIGIN=http://127.0.0.1:5000
+
+RUN CGO_ENABLED=0 go build -o /myapp
+
+FROM scratch
+
+COPY --from=build-stage /myapp /myapp
+
+EXPOSE 8080
+
+ENTRYPOINT [ "/myapp" ]
